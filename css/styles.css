@@ -19,6 +19,13 @@ body {
     border-radius: 20px;
     overflow: hidden;
   }
+  .container {
+    display: flex; /* Make container a flex container */
+    flex-direction: row; /* Elements lay out side-by-side */
+    align-items: center; /* Vertically center elements */
+    justify-content: center; /* Horizontally center elements */
+  }
+  
   
   .left-section {
     flex: 1;
